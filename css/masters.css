@@ -30,7 +30,7 @@ hr{
  border: dotted #e6f5ff 6px;
  border-bottom: none;
  width: 4%;
- margin: 10px auto;
+ margin: 20px auto;
 
 }
 
@@ -76,13 +76,17 @@ ul{
 .main-profile{
   padding-top: 20px;
   font-family: 'Roboto Condensed', sans-serif;
+  color: #f4f3f3;
 
 }
 .main-profile h1{
+    color: #34a7b2;
+    text-shadow: 1px 0px #7ed3b2;
 
     margin: 5px;
 }
 .main-profile p{
+    color: #34a7b2;
     font-size: 25px;
 }
 
