@@ -31,10 +31,13 @@ hr{
  border-bottom: none;
  width: 4%;
  margin: 20px auto;
+ text-align: center;
 
 }
 
-ul{
+
+
+.nav-bar ul{
   padding: 10px;
   margin: 0px 0px;
   background-color: #0ea5c6;
@@ -108,25 +111,26 @@ ul{
 }
 
 
-.main-skill{
-  margin: 10px 250px;
+.main-skill,.contact{
+  margin: 10px 20%;
   font-family: 'Roboto Condensed', sans-serif;
 
 }
 
-.skill-head{
+.skill-head,.contact-head{
   text-align: center;
+  padding-top:10px;
 }
 .web{
   display: inline;
   float: left;
-  padding-right: 10px;
+  padding-right: 15px;
 }
 
 .mob{
   display: inline;
   float: right;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 .skill-one{
@@ -139,4 +143,33 @@ margin-bottom: 10px;
 .mob-par h1{
   margin-top: 30px;
   clear: right;
+}
+.clear{
+  clear: both;
+}
+.contact{
+
+}
+.btn{
+  padding: 10px 25px 10px 25px;
+  border:none;
+  border-radius: 10px;
+  background-color: #cde8f6;
+}
+
+.social ul{
+  list-style: none;
+  text-decoration: none;
+  text-align:center;
+  margin-bottom: 0px;
+}
+.social li{
+  display: inline-block;
+  padding: 20px;
+}
+
+footer{
+  background-color: #ebf0c2;
+  padding: 5px;
+  
 }
