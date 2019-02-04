@@ -28,7 +28,9 @@ a:hover{
 hr{
 
   margin: 0px;
-  padding: 0px;
+  border-bottom: 5px dotted #113f67;
+  border-top:0px;
+  width: 100px;
 
 }
 
