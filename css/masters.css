@@ -11,10 +11,9 @@ border-radius: 100px;
 p{
   margin:0px auto 5px auto;
 }
-a{
+.ul-nav a{
   text-decoration: none;
   color: #eef2f5;
-
 }
 
 h1{
@@ -155,13 +154,15 @@ margin-bottom: 10px;
   border:none;
   border-radius: 10px;
   background-color: #cde8f6;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 .social ul{
   list-style: none;
   text-decoration: none;
-  text-align:center;
   margin-bottom: 0px;
+  color: #e61c5d;
 }
 .social li{
   display: inline-block;
@@ -171,5 +172,16 @@ margin-bottom: 10px;
 footer{
   background-color: #ebf0c2;
   padding: 5px;
-  
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.social a{
+  text-decoration: none;
+
+}
+.social a:hover{
+  color: red;
+}
+.social a{
+  color: green;
 }
